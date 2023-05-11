@@ -10,6 +10,8 @@ function App() {
   const [walletAddress, setWalletAddress] = useState("");
   const [provider, setProvider] = useState("");
 
+  useEffect(() => {connectWallet();}, [walletAddress]);
+
   const connectWallet = async () => {
     if (typeof window.ethereum !== "undefined") {
       try {
