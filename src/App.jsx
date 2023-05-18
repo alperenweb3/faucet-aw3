@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import FaucetAbi from "./abis/Faucet.json";
 import Swal from "sweetalert2";
 
-const faucetContractAddress = "0x8C8612E56F6C14bBB5959C6a3a74355e704C0296";
+const faucetContractAddress = "0xaFaFEdC492419d59aC13f032e4770559AF013526";
 
 function App() {
   const [walletAddress, setWalletAddress] = useState("");
